@@ -1,0 +1,32 @@
+{
+  "name": "ui-terminal",
+  "version": "1.0.0",
+  "description": "Basic helper for node js terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksymkulia/ui-terminal.git"
+  },
+  "keywords": [
+    "terminal",
+    "console",
+    "color",
+    "text",
+    "ui",
+    "b",
+    "strong",
+    "i",
+    "u",
+    "simple",
+    "onepackage"
+  ],
+  "author": "Maksym Kulia <maksym.kulia@protonmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/maksymkulia/ui-terminal/issues"
+  },
+  "homepage": "https://github.com/maksymkulia/ui-terminal#readme"
+}
