@@ -1,3 +1,6 @@
+// Assets
+let colors = require('./assets/colors')
+
 // Test method
 exports.test = () => {
     
@@ -9,4 +12,10 @@ exports.test = () => {
 exports.e = content => {
     
     console.log(content)
+}
+
+// Console log with colors and styles
+exports.incolor = (content, color) => {
+
+    console.log(colors[color], content)
 }
