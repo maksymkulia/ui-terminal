@@ -1,5 +1,5 @@
 // Assets
-let colors = require('./assets/colors')
+let tc = require('./assets/textColors')
 
 // Test method
 exports.test = () => {
@@ -17,5 +17,5 @@ exports.e = content => {
 // Console log with colors and styles
 exports.incolor = (content, color) => {
 
-    console.log(colors[color], content)
+    console.log(tc[color], content)
 }

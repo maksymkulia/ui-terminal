@@ -3,7 +3,7 @@ let ut = require('../index')
 
 // Test variables
 let data = 'Hello world!'
-let color = 'FgRed'
+let color = 'Reverse'
 
 // Simple output with text in color
 ut.incolor(data, color)
