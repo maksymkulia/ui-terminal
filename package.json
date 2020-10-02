@@ -1,6 +1,6 @@
 {
   "name": "ui-terminal",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Basic helper for node js terminal",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,12 @@
     "i",
     "u",
     "simple",
-    "onepackage"
+    "onepackage",
+    "banner",
+    "acii",
+    "art",
+    "easter",
+    "egg"
   ],
   "author": "Maksym Kulia <maksym.kulia@protonmail.com>",
   "license": "UNLICENSED",

@@ -43,9 +43,53 @@ let ut = require('ui-terminal') // Include ui-terminal module
 
 // Test variables
 let data = 'Hello world!'
-let color = 'green'
+let color = 'red'
 
 ut.incolor(data, color) // Simple output with text in color
+
+```
+### Simple console log with background color
+
+Available colors:
+- black
+- red
+- green
+- yellow
+- blue
+- magenta
+- cyan
+- white
+
+```js
+let ut = require('ui-terminal') // Include ui-terminal module
+
+// Test variables
+let data = 'Hello world!'
+let bgcolor = 'green'
+
+ut.bgcolor(data, color) // Simple output with background color
+
+```
+### Make only part of console.log in color
+
+Available colors:
+- black
+- red
+- green
+- yellow
+- blue
+- magenta
+- cyan
+- white
+
+```js
+let ut = require('../index') // Include module
+
+// Test variables
+let cyan = 'In cyan'
+let green = 'in green'
+
+console.log(`${ut.incyan(cyan)} and ${ut.ingreen(green)}`) // Simple console.log with coloring part of text
 
 ```
 
@@ -53,8 +97,7 @@ ut.incolor(data, color) // Simple output with text in color
 
 ## ToDo
 
-- Text background
-- String prototypes to color parts of text
 - Custom styles
-- Banners
-- Matrix
+- Banners creator
+- Matrix generator
+- Easter egg creator
