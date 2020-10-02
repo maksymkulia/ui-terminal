@@ -1,5 +1,6 @@
 // Assets
 let tc = require('./assets/textColors')
+let bc = require('./assets/backgroundColors')
 
 // Test method
 exports.test = () => {
@@ -18,4 +19,10 @@ exports.e = content => {
 exports.incolor = (content, color) => {
 
     console.log(tc[color], content)
+}
+
+// Console log with backgound color
+exports.bgcolor = (content, bgcolor) => {
+
+    console.log(bc[bgcolor], content)
 }
