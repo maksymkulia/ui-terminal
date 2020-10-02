@@ -70,13 +70,33 @@ let bgcolor = 'green'
 ut.bgcolor(data, color) // Simple output with background color
 
 ```
+### Make only part of console.log in color
+
+Available colors:
+- black
+- red
+- green
+- yellow
+- blue
+- magenta
+- cyan
+- white
+
+```js
+let ut = require('../index') // Include module
+
+// Test variables
+let cyan = 'In cyan'
+let green = 'in green'
+
+console.log(`${ut.incyan(cyan)} and ${ut.ingreen(green)}`) // Simple console.log with coloring part of text
+
+```
 
 ---
 
 ## ToDo
 
-- Text background
-- String prototypes to color parts of text
 - Custom styles
 - Banners creator
 - Matrix generator
