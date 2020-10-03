@@ -1,5 +1,5 @@
 // Include module
-let ut = require('../index')
+let ut = require("../index");
 
 // Test method
-ut.test()
+ut.test();
