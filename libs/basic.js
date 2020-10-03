@@ -9,7 +9,7 @@ let bc = require("../assets/backgroundColors");
 
 // Test method
 exports.test = () => {
-  console.log("test");
+  console.log("test ok");
 };
 
 // Simple console log (e -> echo).
