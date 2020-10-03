@@ -1,8 +1,8 @@
 // Include module
-let ut = require('../index')
+let ut = require("../index");
 
 // Test variables
-let data = 'Hello world!'
+let data = "Hello world!";
 
 // Simple output to console
-ut.e(data)
+ut.e(data);

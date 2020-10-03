@@ -18,6 +18,11 @@ exports.e = (content) => {
   console.log(content, p.reset);
 };
 
+// Outputs table in console
+exports.table = (arr) => {
+  console.table(arr);
+};
+
 // Console log with colors and styles
 exports.incolor = (content, color) => {
   console.log(tc[color], content, p.reset);
