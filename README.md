@@ -3,6 +3,7 @@
 [![version](https://img.shields.io/npm/v/ui-terminal.svg)](https://www.npmjs.org/package/ui-terminal)
 [![dependencies](https://david-dm.org/maksymkulia/ui-terminal.svg)](https://david-dm.org/maksymkulia/ui-terminal)
 [![devDependencies](https://david-dm.org/maksymkulia/ui-terminal/dev-status.svg)](https://david-dm.org/maksymkulia/ui-terminal#info=devDependencies)
+[![Twitter Follow](https://img.shields.io/twitter/follow/maksymkulia.svg?style=social&label=Follow)](https://twitter.com/maksymkulia)
 
 Basic helper for node js terminal. No dependencies.
 
