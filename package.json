@@ -1,6 +1,6 @@
 {
   "name": "ui-terminal",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Color text, background | node js terminal helper",
   "main": "index.js",
   "scripts": {
@@ -43,5 +43,5 @@
     ],
     "owner": "Maksym Kulia <maksym.kulia@protonmail.com>"
   },
-  "homepage": "https://github.com/maksymkulia/ui-terminal/projects/1"
+  "homepage": "https://github.com/maksymkulia/ui-terminal/wiki"
 }
