@@ -1,6 +1,6 @@
 {
   "name": "ui-terminal",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Color text, background | node js terminal helper",
   "main": "index.js",
   "scripts": {
